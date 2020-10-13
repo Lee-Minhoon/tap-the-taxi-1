@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ChatActivity">
+
+    <TextView
+        android:id="@+id/ac_tvTitle"
+        android:background="#181E26"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"
+        android:gravity="center"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ac_rvChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ac_etChat"
+        android:layout_below="@+id/ac_tvTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true">
+    </android.support.v7.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/ac_etChat"
+        android:layout_toLeftOf="@+id/ac_btChat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/ac_btChat"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전송"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

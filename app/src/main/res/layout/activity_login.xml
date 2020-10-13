@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/al_llLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:background="#181E26"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TAP!C"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"
+        android:gravity="center"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp">
+        <EditText
+            android:id="@+id/al_etLoginID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="E-mail"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="60dp">
+        <EditText
+            android:id="@+id/al_etLoginPW"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/al_btRegister"
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="회원가입"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/al_btLogin"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="로그인"
+        android:textStyle="bold"/>
+
+</LinearLayout>

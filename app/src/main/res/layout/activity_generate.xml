@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ac_llCreate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".GenerateActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp">
+        <EditText
+            android:id="@+id/ag_etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="방 제목을 입력하세요"
+            android:gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/ag_btCreate"
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="방만들기"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "537533373522",
+    "firebase_url": "https://tapc-56580.firebaseio.com",
+    "project_id": "tapc-56580",
+    "storage_bucket": "tapc-56580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537533373522:android:310df7069b04e7e2",
+        "android_client_info": {
+          "package_name": "com.example.tapc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537533373522-psl9hh76eot146qob531dlpe2r919g3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tapc",
+            "certificate_hash": "ea0db99728cddac3b68368794a680b8058f653c2"
+          }
+        },
+        {
+          "client_id": "537533373522-vi47vaeeugrpe9cj36blh5rcu9ouqauf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFFJUO6w_xeuPSF2Hfv407CIgpsiBbdkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537533373522-vi47vaeeugrpe9cj36blh5rcu9ouqauf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
