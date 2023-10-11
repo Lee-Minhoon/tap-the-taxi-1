@@ -19,7 +19,7 @@
         android:textStyle="italic|bold"
         android:gravity="center"/>
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_marginTop="10dp"
         android:layout_width="200dp"
         android:layout_height="60dp">
@@ -28,9 +28,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="E-mail"/>
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="200dp"
         android:layout_height="60dp">
         <EditText
@@ -39,7 +39,7 @@
             android:layout_height="match_parent"
             android:inputType="textPassword"
             android:hint="Password"/>
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/al_btRegister"

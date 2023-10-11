@@ -9,7 +9,7 @@
     android:gravity="center"
     tools:context=".GenerateActivity">
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="300dp"
         android:layout_height="60dp">
         <EditText
@@ -18,7 +18,7 @@
             android:layout_height="match_parent"
             android:hint="방 제목을 입력하세요"
             android:gravity="center"/>
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/ag_btCreate"
